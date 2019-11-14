@@ -1,0 +1,214 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Handlee', serif;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Titillium Web', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+p {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 15px;
+  border-color: #71c9ce;
+  width: 8%;
+  margin: 150px auto 150px auto;
+}
+
+/******************************************CLASS SELECTORS***************************************/
+.navbar {
+  display: block;
+  height: 75px;
+  background-color: #71c9ce;
+  position: relative;
+}
+
+.nav-links {
+  position: absolute;
+  display: inline-block;
+  margin-top: 37.5px;
+  left: 50px;
+}
+
+.nav-links a {
+  padding-right: 15px;
+  text-decoration: none;
+  font-family: 'Titillium Web', serif;
+  font-size: 15px;
+  position: relative;
+}
+
+.nav-links a:hover {
+  color: #EAF6F6;
+}
+
+
+.nav-cloud {
+  position: absolute;
+  left: 550px;
+  margin-top: 30px;
+}
+
+.top-container {
+  padding-top: 100px;
+  background-color: #71c9ce;
+  position: relative;
+}
+
+.middle-container {
+  padding-bottom: 200px;
+}
+
+.bottom-container {
+  position: relative;
+  background-color: #71c9ce;
+  padding-bottom: 75px;
+}
+
+.bottom-container p {
+  color: #EAF6F6;
+  font-weight: normal;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skills-block h3 {
+  margin-bottom: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.code {
+  float: left;
+  margin-right: 30px;
+}
+
+.it {
+  float: right;
+  margin-left: 30px;
+}
+
+.coding-skills {}
+
+.codeimage {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 30.5%;
+}
+
+.designimage {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.row.designimage {
+  margin-left: 33%;
+}
+
+.mhtilt {
+  height: 180px;
+  width: 180px;
+  padding-right: 100px;
+}
+
+.about-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.marcandsoph {
+  float: left;
+  margin-right: 30px;
+}
+
+.coopandzach {
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  margin-top: 50px;
+}
+
+.footer-links {
+  display: inline-block;
+  margin-top: 75px;
+}
+
+.footer-links a {
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: 'Titillium Web', serif;
+  font-size: 20px;
+}
+
+.footer-links a:hover {
+  color: #EAF6F6;
+}
+
+.btn-cta {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  font-family: 'Titillium Web', serif;
+  letter-spacing: 1px;
+  color: #000000;
+  font-size: 20px;
+  background: #fff;
+  padding: 15px 25px 15px 25px;
+  border: solid #d1d1d1 1px;
+  text-decoration: none;
+}
+
+.btn-cta:hover {
+  background: #82d5d9;
+  color: #fff;
+  text-decoration: none;
+}
