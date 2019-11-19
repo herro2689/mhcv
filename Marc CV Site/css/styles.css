@@ -205,10 +205,12 @@ hr {
   padding: 15px 25px 15px 25px;
   border: solid #d1d1d1 1px;
   text-decoration: none;
+
 }
 
 .btn-cta:hover {
   background: #82d5d9;
   color: #fff;
   text-decoration: none;
+  transition: 0.2s ease;
 }
